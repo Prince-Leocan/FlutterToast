@@ -20,7 +20,6 @@ class _ToastNoContextState extends State<ToastNoContext> {
       msg: "This is Colored Toast with android duration of 5 Sec",
       toastLength: Toast.LENGTH_SHORT,
       webBgColor: "#e74c3c",
-      textColor: Colors.black,
       timeInSecForIosWeb: 5,
     );
   }

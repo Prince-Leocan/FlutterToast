@@ -92,7 +92,7 @@ class Fluttertoast {
     }
 
     if (backgroundColor == null && !kIsWeb && Platform.isIOS) {
-      backgroundColor = Colors.black;
+      backgroundColor = Colors.grey.shade800;
     }
     if (textColor == null && !kIsWeb && Platform.isIOS) {
       textColor = Colors.white;
